@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+.chivo {
+    font-family: "Chivo", serif;
+}
+.museomoderno {
+    font-family: "MuseoModerno", serif;
+}
+.archivo {
+    font-family: "Archivo", serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body { 
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #000000;
+}
+.navbar {
+    padding: 1vw 0;
+    margin: 0 3vw;
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-size: 2.625vw;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.75vw;
+    margin-right: 1.875vw;
+}
+.line {
+    margin-top: -0.625vw;
+    height: 0.0625vw; 
+    background-color:#FFFFFF;
+}
+.main-content {
+    padding: 3vw;
+}
+.main-image-section {
+    padding: 6vw 0;
+}
+.main-content-text {
+    font-size: 7.5vw;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 7.5vw;
+}
+.main-image img{
+    border-radius: 3.5vw;
+    border: 0.0625vw solid #FFFFFF00;
+    margin-top: 3vw;
+}
+.project-img img{
+    border: 0.0625vw solid #FFFFFF00;
+}
+.text1 {
+    font-size: 1.25vw;
+    font-weight: 500;
+    line-height: 1.5vw;
+    color: #FFFFFF;
+    margin-top: 0.3125vw;
+}
+.text2 {
+    font-size: 1.0625vw;
+    font-weight: 500;
+    line-height: 1.5vw;
+    color: #FFFFFF99;
+    margin-top: 0.1vw;
+}
+.row {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; 
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+.project-img{
+    width: 31%;
+}
+.project-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.para {
+    padding: 5vw 0;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+.para .text {
+    font-size: 3.33vw;
+    font-weight: 400;
+    line-height: 3.5vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-right: 50%;
+}
+.page4 {
+    height: fit-content;
+    width: 100%;
+    padding: 8vw 3vw;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.contact-me h1 {
+    font-size: 1.8vw;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.right {
+    display: flex;
+    gap: 6vw;
+    margin-right: 10vw;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: "Archivo", serif;
+
+
+}
+.right h1{
+    font-size: 1.4vw;
+}
+.right h3{
+    padding-top: 0.6vw;
+    color: #676464;
+    font-weight: 200;
+    font-size: 1.2vw;
+}
+.form{
+    margin: 6vw 0;
+    height: 44vw;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form h2{
+    font-size: 1.8vw;
+    font-weight: 900;
+    margin-bottom: 0.8vw;
+    color: #FFFFFF;
+    
+}
+.form p{
+    font-size: 0.9vw;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+input{
+    color: #676464;
+    margin-top: 1.8vw;
+    height: 4vw;
+    width: 4vw;
+    font-size: 2vw;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 0.5vw;
+    margin-left: .4vw;
+    padding-left: 0.8vw;
+}
+
+.form button{
+    margin-top: 2.5vw;
+    background-color: #928DD3;
+    padding: 0.7vw 10vw;
+    border: none;
+    border-radius: 0.5vw;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+.form button:hover{
+    color: white;
+    background: #928DD3;
+}
+.form h4{
+    margin-top: 2vw;
+    color: #928DD3;
+    font-weight: 600;
+}
+footer {
+    display: flex;
+    margin: 0 2.5vw;
+    padding: 1.25vw 0;
+    justify-content: space-between;
+}
+footer p{
+    font-weight: 400;
+    font-size: 1.45vw;
+    line-height: 1.66vw;
+    color: #FFFFFF99;
+}
+#butt {
+    border-radius: 0.41vw;
+    border: 0.052vw solid #FFFFFF29;
+    padding: 0.62vw 1.25vw;
+    height: 2.5vw;
+    background-color: transparent;
+    margin-top: 1.04vw;
+    font-weight: 600;
+    color: #FFFFFF;
+}
